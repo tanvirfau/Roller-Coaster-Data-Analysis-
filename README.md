@@ -36,7 +36,7 @@ The dataset used in this project provides detailed information on roller coaster
 * Numpy: Used for numerical operations and data handling.
 
 # Steps Taken:
-** Step 1 **: Data Understanding
+**Step 1**: Data Understanding
   We started by exploring the dataset using basic functions such as head(), dtypes, and describe(). This helped in understanding the shape of the data, types of columns, and basic statistics such as the number of roller coasters by year, average speed, and inversions.
   
   Key observations:
@@ -45,14 +45,14 @@ The dataset used in this project provides detailed information on roller coaster
   
   Missing Values: Several columns have missing values, particularly Speed, Height, Location, and G-force.
 
-* Step 2: Data Preprocessing
+**Step 2**: Data Preprocessing
   Dropping Irrelevant Columns: Columns that were not useful for analysis (such as opening dates and cost) were removed.
   
   Handling Missing Values: We explored different methods to handle missing data and cleaned the dataset accordingly.
   
   Removing Duplicates: We checked for and removed any duplicate records, ensuring data integrity.
 
-* Step 3: Feature Exploration (Univariate Analysis)
+**Step 3**: Feature Exploration (Univariate Analysis)
   Various univariate analyses were conducted on key features:
   
   Distribution of Coaster Opening Years: A bar plot of the top 10 years when roller coasters were introduced.
@@ -61,7 +61,7 @@ The dataset used in this project provides detailed information on roller coaster
 
   Height Distribution: Visualizations for the distribution of coaster heights.
 
-* Step 4: Feature Relationships (Bivariate Analysis)
+**Step 4**: Feature Relationships (Bivariate Analysis)
   We explored the relationship between different features using scatterplots and pair plots:
   
   Coaster Speed vs. Height: Scatterplot to visualize how speed correlates with coaster height.
@@ -76,10 +76,10 @@ The dataset used in this project provides detailed information on roller coaster
 
   Pairplot: A pairplot was used to visualize correlations between features such as Speed, Height, Inversions, and G-force.
 
-* Step 5: Correlation Analysis
+**Step 5**: Correlation Analysis
 A correlation matrix and heatmap were generated to examine the relationships between the key numerical features (e.g., Speed, Height, G-force, Inversions). For instance, Speed and Height have a positive correlation, while Inversions negatively correlates with Speed.
 
-* Step 6: Asking a Question about the Data
+**Step 6**: Asking a Question about the Data
   One of the business questions addressed in the analysis was:
   
   "What are the locations with the fastest roller coasters (minimum of 10)?"
