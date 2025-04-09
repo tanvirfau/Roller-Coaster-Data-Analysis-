@@ -1,5 +1,6 @@
 # Roller-Coaster-EDA
-![Roller-Coaster-EDA](https://github.com/tanvirfau/Roller-Coaster-EDA-/blob/main/pairplot.png)
+
+![Roller-Coaster](https://github.com/tanvirfau/Roller-Coaster-EDA/blob/main/roller-coaster.jpg)
 
 
 
@@ -15,6 +16,7 @@ The data visualization is performed using Python libraries like Pandas, Matplotl
 
 🚀 How physical characteristics like height and speed relate to rider experiences such as g-force and inversions.
 
+![Roller-Coaster-EDA](https://github.com/tanvirfau/Roller-Coaster-EDA-/blob/main/pairplot.png)
 🔑 Key Features:
 
 📥 Data Import and cleanup of roller coaster dataset.
