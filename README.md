@@ -50,38 +50,35 @@ The dataset used in this project provides detailed information on roller coaster
       Removing Duplicates: We checked for and removed any duplicate records, ensuring data integrity.
 
 **Step 3**: Feature Exploration (Univariate Analysis)
-  Various univariate analyses were conducted on key features:
-  
-  Distribution of Coaster Opening Years: A bar plot of the top 10 years when roller coasters were introduced.
-  
-  Speed Distribution: Histograms, KDEs, and boxplots to understand the distribution of coaster speeds (mph).
 
-  Height Distribution: Visualizations for the distribution of coaster heights.
+      Various univariate analyses were conducted on key features:
+      Distribution of Coaster Opening Years: A bar plot of the top 10 years when roller coasters were introduced.
+      Speed Distribution: Histograms, KDEs, and boxplots to understand the distribution of coaster speeds (mph).
+      Height Distribution: Visualizations for the distribution of coaster heights.
 
 **Step 4**: Feature Relationships (Bivariate Analysis)
-  We explored the relationship between different features using scatterplots and pair plots:
-  
-  Coaster Speed vs. Height: Scatterplot to visualize how speed correlates with coaster height.
-  
-  Pairplot: A pairplot was used to visualize correlations between features such as Speed, Height, Inversions, and G-force.
-  
-  Key observations:
-  
-  Data Shape: The dataset contains 990 rows and 13 columns.
 
-  Missing Values: Several columns have missing values, particularly Speed, Height, Location, and G-force.
-
-  Pairplot: A pairplot was used to visualize correlations between features such as Speed, Height, Inversions, and G-force.
+      We explored the relationship between different features using scatterplots and pair plots:
+      Coaster Speed vs. Height: Scatterplot to visualize how speed correlates with coaster height.
+      Pairplot: A pairplot was used to visualize correlations between features such as Speed, Height, Inversions, and G-force.
+  
+      Key observations:
+  
+      Data Shape: The dataset contains 990 rows and 13 columns.
+    
+      Missing Values: Several columns have missing values, particularly Speed, Height, Location, and G-force.
+    
+      Pairplot: A pairplot was used to visualize correlations between features such as Speed, Height, Inversions, and G-force.
 
 **Step 5**: Correlation Analysis
-A correlation matrix and heatmap were generated to examine the relationships between the key numerical features (e.g., Speed, Height, G-force, Inversions). For instance, Speed and Height have a positive correlation, while Inversions negatively correlates with Speed.
+
+        A correlation matrix and heatmap were generated to examine the relationships between the key numerical features (e.g., Speed, Height, G-force, Inversions). For instance, Speed and Height have a positive correlation, while Inversions negatively correlates with Speed.
 
 **Step 6**: Asking a Question about the Data
-  One of the business questions addressed in the analysis was:
-  
-  "What are the locations with the fastest roller coasters (minimum of 10)?"
-  
-  We filtered locations with at least 10 coasters and grouped them by the average speed. This provided insights into which amusement parks feature the fastest coasters.
+    
+      One of the business questions addressed in the analysis was:
+      "What are the locations with the fastest roller coasters (minimum of 10)?"
+      We filtered locations with at least 10 coasters and grouped them by the average speed. This provided insights into which amusement parks feature the fastest coasters.
 
 # Key Visualizations:
 Top 10 Years of Roller Coaster Introduced:
