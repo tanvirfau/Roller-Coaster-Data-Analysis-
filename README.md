@@ -81,25 +81,25 @@ The dataset used in this project provides detailed information on roller coaster
       We filtered locations with at least 10 coasters and grouped them by the average speed. This provided insights into which amusement parks feature the fastest coasters.
 
 # Key Visualizations:
-Top 10 Years of Roller Coaster Introduced:
+* Top 10 Years of Roller Coaster Introduced:
 
-A bar plot showing the top 10 years when roller coasters were introduced, highlighting the most active periods in coaster development.
+    A bar plot showing the top 10 years when roller coasters were introduced, highlighting the most active periods in coaster development.
 
 * Coaster Speed Distribution:
 
-A histogram and KDE plot to visualize the distribution of coaster speeds in miles per hour (mph).
+    A histogram and KDE plot to visualize the distribution of coaster speeds in miles per hour (mph).
 
 * Coaster Speed vs Height:
 
-A scatterplot to examine the relationship between coaster speed and height.
+    A scatterplot to examine the relationship between coaster speed and height.
 
 * Average Speed by Location:
 
-A horizontal bar plot displaying the average speed of roller coasters by location, considering only those locations with at least 10 coasters.
+    A horizontal bar plot displaying the average speed of roller coasters by location, considering only those locations with at least 10 coasters.
 
 * Correlation Heatmap:
 
-A heatmap showing the correlation between Speed, Height, Inversions, and G-force.
+    A heatmap showing the correlation between Speed, Height, Inversions, and G-force.
 
 # Results & Insights:
 * Speed Trends: We identified the average speeds of roller coasters across different parks and regions, highlighting the fastest coasters.
