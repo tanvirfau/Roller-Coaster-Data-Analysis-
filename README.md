@@ -44,6 +44,8 @@ The dataset used in this project provides detailed information on roller coaster
     Missing Values: Several columns have missing values, particularly Speed, Height, Location, and G-force.
 
 **Step 2**: Data Preprocessing
+
+
   Dropping Irrelevant Columns: Columns that were not useful for analysis (such as opening dates and cost) were removed.
   
   Handling Missing Values: We explored different methods to handle missing data and cleaned the dataset accordingly.
