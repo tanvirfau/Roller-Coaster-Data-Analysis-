@@ -20,8 +20,11 @@ The data visualization is performed using Python libraries like Pandas, Matplotl
 🔑 Key Features:
 
 📥 Data Import and cleanup of roller coaster dataset.
+
 📈 Pairplot matrix for visualizing correlations between key features.
+
 🛠️ Comparative analysis of wood vs steel roller coasters.
+
 📊 Graphical exploration of coaster statistics across time.
 
 Feel free to explore, fork, and contribute! 🚀
