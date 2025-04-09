@@ -45,11 +45,8 @@ The dataset used in this project provides detailed information on roller coaster
 
 **Step 2**: Data Preprocessing
 
-
   Dropping Irrelevant Columns: Columns that were not useful for analysis (such as opening dates and cost) were removed.
-  
   Handling Missing Values: We explored different methods to handle missing data and cleaned the dataset accordingly.
-  
   Removing Duplicates: We checked for and removed any duplicate records, ensuring data integrity.
 
 **Step 3**: Feature Exploration (Univariate Analysis)
