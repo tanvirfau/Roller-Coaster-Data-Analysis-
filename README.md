@@ -36,12 +36,11 @@ The dataset used in this project provides detailed information on roller coaster
 * Numpy: Used for numerical operations and data handling.
 
 # Steps Taken:
-**Step 1**: 
-  Data Understanding
-  We started by exploring the dataset using basic functions such as head(), dtypes, and describe(). This helped in understanding the shape of the data, types of columns, and basic statistics such as the number of roller coasters by year, average speed, and inversions.
-  Key observations:
-  Data Shape: The dataset contains 990 rows and 13 columns.
-  Missing Values: Several columns have missing values, particularly Speed, Height, Location, and G-force.
+**Step 1**: Data Understanding
+    We started by exploring the dataset using basic functions such as head(), dtypes, and describe(). This helped in understanding the shape of the data, types of columns, and basic statistics such as the number of roller coasters by year, average speed, and inversions.
+    Key observations:
+    Data Shape: The dataset contains 990 rows and 13 columns.
+    Missing Values: Several columns have missing values, particularly Speed, Height, Location, and G-force.
 
 **Step 2**: Data Preprocessing
   Dropping Irrelevant Columns: Columns that were not useful for analysis (such as opening dates and cost) were removed.
