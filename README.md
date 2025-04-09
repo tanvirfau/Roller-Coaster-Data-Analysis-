@@ -36,7 +36,7 @@ The dataset used in this project provides detailed information on roller coaster
 * Numpy: Used for numerical operations and data handling.
 
 # Steps Taken:
-* Step 1: Data Understanding
+** Step 1 **: Data Understanding
   We started by exploring the dataset using basic functions such as head(), dtypes, and describe(). This helped in understanding the shape of the data, types of columns, and basic statistics such as the number of roller coasters by year, average speed, and inversions.
   
   Key observations:
